@@ -11,6 +11,7 @@
     position:sticky;
     top: 0;
     cursor: pointer;
+    z-index: 100;
 }
 .background{
     background-color: rgb(13, 13, 13);
@@ -107,7 +108,6 @@
     font-weight: bold;
 }
 .media{
-    /* position: relative; */
     display: flex;
     padding: 5px;
     margin-top: 5px;
@@ -224,6 +224,7 @@
     display: flex;
     margin-left: 200px;
     text-align: center;
+    z-index: 50;
 }
 .one{
     border: 1px solid #101010;
@@ -385,7 +386,7 @@
 }
 /* footersection */
 
-.bground{
+.bgrou{
     background-color: #000;
     height: 100px;
 }
