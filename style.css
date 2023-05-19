@@ -38,6 +38,7 @@
     width: 30%;
 }
 .nav-list li {
+    margin-left: 20px;
     list-style: none;
     padding: 25px 30px;
 }
@@ -77,7 +78,7 @@
 
 .firstsection{
     background-color: rgb(16, 116, 123);
-    height: 500px;
+    height: 650px;
     display: flex;
 		align-items:center ;
 		justify-content: center;
@@ -87,6 +88,9 @@
 }
 .box{
     padding: 0px 65px;
+}
+.box .btttn{
+    margin-left: 50px;
 }
  .firsthalf h3{
     text-decoration: rgb(13, 13, 13);
@@ -109,6 +113,9 @@
 .firsthalf h4{
     color:  rgb(4, 4, 4);
     font-weight: bold;
+}
+.firsthalf h4 span{
+    color: #03a9f4;
 }
 .media{
     display: flex;
@@ -133,21 +140,6 @@
     background: #03a9f4;
     color: #fff;
 }
-.btn button{
-    display: inline-block;
-    color: rgb(250, 248, 248);
-    background: rgb(13, 13, 14) ;
-    font-size:large;
-    padding: 11px 16px;
-    font-weight:100;
-    line-height: 20px;
-    border-radius: 50px;
-    transition: ease;
-}
-.btn button:hover{
-    background:  rgb(16, 116, 123);
-    color: #fff;
-}
 .home-pic img {
     width: 280px;
     border: 2px solid  rgb(16, 116, 123);
@@ -160,8 +152,8 @@
 }
 .secondsection{
     background-color: rgb(153, 21, 127);
-    width: 100%;
-    height: 50%;
+    max-width: 100%;
+    height: 650px;
     margin: auto; 
 }
 .faces1{
@@ -209,15 +201,9 @@
 /* portfolio section  */
 .thirdsection{
     background-color: rgb(5, 121, 68);
-    height: 1000px;
+    height: fit-content;
 }
-.thirdfirst h1{
-    text-align: center;
-    color: #101010;
-    font-weight: bold;
-    text-decoration: underline;
-}
-.thirdfirst h2{
+.thirdfirst {
     text-align: center;
     color: #101010;
     font-weight: bold;
@@ -325,6 +311,78 @@
 .three:hover .content3{
     left: 0;
 }
+
+/*blog section */
+
+.sixthsection{
+    background-color: rgb(8, 8, 8);
+    height: fit-content;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.sixthfirst{
+    text-align: center;
+    color: rgb(252, 251, 251);
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* .final-dec{
+    display: flex;
+    margin-left: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+} */
+.one1{
+    border: 1px solid rgb(251, 250, 250);
+    background: rgb(253, 252, 252);
+    width: 280px;
+    height: 400px;
+    margin: 20px ;
+    position: relative;
+    overflow: hidden;
+}
+.one1 img{
+    width: 100%;
+    height: 100%;
+}
+.cont1{
+    color: #fff;
+    background: rgb(0,0,0,0.8);
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    padding: 20%;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+.cont1 p{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 30px 0;
+}
+.one1:hover .cont1{
+    left: 0;
+}
+.btnn{
+    width: fit-content;
+    text-align: center;
+    /* margin-left: 35%; */
+    padding:9PX 30PX ;
+    background:#f4f7f8;
+    border: 2PX solid #fff;
+    border-radius: 50PX;
+    color: rgb(11, 10, 10);
+    text-decoration: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btnn:hover{
+    background:  rgb(11, 11, 11);
+    color: rgb(254, 252, 252);
+}
+
 /* contect section */
 .fourthalf h1{
     text-align: center;
@@ -339,7 +397,7 @@
 }
 .fourthsection{
     background-color: rgb(156, 163, 35);
-    height: 500px;
+    height: 600px;
 }
 .row{
     padding-top: 40px;
@@ -386,6 +444,50 @@
 .right-content .inputbox span{
     position: absolute;
     left: 0;
+}
+/* placesection */
+.fifththsection{
+    background-color: #fcfafa;
+    height: fit-content;
+    padding-bottom: 20px;
+}
+.title{
+    text-align: center;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+}
+.row{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: fit-content;
+}
+.row .col img{
+    padding-top: 20px;
+    width: 240px;
+    height: 260px;
+    transition: 0.5s;
+}
+.row .col img:hover{
+    height: 290px;
+}
+.btttn{
+    margin-top: 20px;
+    margin-left: 9%;
+    display: inline-block;
+    padding:9PX 30PX ;
+    background:#0c0c0c;
+    border: 2PX solid rgb(8, 8, 8);
+    border-radius: 50PX;
+    color: rgb(254, 253, 253);
+    text-decoration: none;
+    cursor: pointer;
+}
+.btttn:hover{
+    background:  rgb(253, 252, 252);
+    color: rgb(8, 8, 8);
 }
 /* footersection */
 
