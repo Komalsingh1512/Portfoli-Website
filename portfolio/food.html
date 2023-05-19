@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food</title>
+<style>
+.thirdsection{
+    background-color: #fff;
+    height: 500px;
+}
+.row{
+    display: flex;
+}
+.thirdfirst{
+    padding-top: 100px;
+    color: black;
+    font-weight: bold;
+    width: 50%;
+    font-size: 20px;
+}
+.thirdfirst h1{
+    margin-left: 100px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+.thirdfirst h4{
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+.bttn{
+    margin-left: 160px;
+    display: inline-block;
+    padding:9PX 30PX ;
+    background:#060606;
+    border: 2PX solid rgb(7, 7, 7);
+    border-radius: 50PX;
+    color: rgb(255, 254, 254);
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.bttn:hover{
+    background:  rgb(251, 250, 250);
+    color: rgb(10, 10, 10);
+}
+.image-gallery{
+    display: flex;
+    padding-left: 300px;
+    flex-wrap: wrap;
+}
+.image-gallery img{
+    padding-top: 10px;
+    transition: transform .3s ease;    /*not known */
+    width: 200px;
+    margin: 10px;
+}
+.image-gallery img:hover{
+    transform: scale(1.1);
+}
+</style>
+</head>
+<body>
+    <section id="food" class="thirdsection">
+        <div class="row">
+        <div class="thirdfirst">
+            <h1>Nepali Traditional Food</h1>
+            <h4> Nepalise Cuisine combines a range of ingredients, techniques and characteristics from its neighboring countrie,s with its own gastronomic history. Nepalese dishes are generally healthier than most other South Asian cuisine, relying less on using fats and more on chunky vegetables, lean meats, pickled ingredients and salads.</h4>
+            <div class="bttn"> Read More</div>
+        </div>
+            <div class="image-gallery">
+                <img src="py.png">
+                <img src="py.png">
+                <img src="py.png">
+                <img src="py.png">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

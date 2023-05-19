@@ -1,0 +1,73 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Sofia", sans-serif;
+    line-height: 1.8em;
+    color: #666;
+}
+.first-block, .second-block, .third-block{
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+span{
+    line-height: 4.5rem;
+}
+.first-block{
+    background-image: url(image/bg-image-1.jpg);
+    min-height: 100%;
+}
+.second-block{
+    background-image: url(image/bg-img-3-1.jpg);
+    min-height: 100%;
+}
+.third-block{
+    background-image: url(image/bg-img-2.webp);
+    min-height: 100%;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.intro-file-1{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.intro-file-2{
+    background-color: #370c0c94;
+    color: #ddd;
+}
+.intro-file-3{
+    background-color: #0d0d0ea9;
+    color: rgb(252, 252, 252);
+}
+.sub-part{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.sub-part .text{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+.sub-part .text.box{
+    background-color: transparent;
+}
+@media(max-width:568px)
+{
+    .first-block, .second-block, .third-block
+    {
+        background-attachment: scroll;
+    }
+}

@@ -74,6 +74,7 @@
     background:  rgb(16, 116, 123);
     color: #fff;
 }
+
 /* homesection */
 
 .firstsection{
@@ -102,20 +103,16 @@
     font-weight: 1500px;
     font-size:xx-large;
 }
-.firsthalf h3{
+.firsthalf h2{
     text-decoration: rgb(14, 14, 14);
     font-weight: bold;
 }
-.firsthalf p{
+.firsthalf h3{
     color: rgb(247, 241, 244);
     font-weight: bold;
 }
-.firsthalf h4{
-    color:  rgb(4, 4, 4);
-    font-weight: bold;
-}
-.firsthalf h4 span{
-    color: #03a9f4;
+.firsthalf h3 span{
+    color: #060606;
 }
 .media{
     display: flex;
@@ -146,7 +143,9 @@
     border-radius: 26px;
     margin-top: 19px;
 }
+
 /* aboutsection */
+
 .box1{
     padding: 40px 355px;
 }
@@ -171,21 +170,17 @@
     width: 550px;
     justify-content: center;
     align-items: center;
-}
-.secondhalf h1{
-    color: #101010;
     font-weight: bold;
+}
+.secondhalf h1,h2{
+    color: #101010;
     text-decoration: underline;
 }
 .secondhalf h2{
     text-align: center;
-    color: rgb(16, 16, 16);
-    font-weight: bold;
-    text-decoration: underline;
 }
 .secondhalf h3{
     color: rgb(254, 251, 251);
-    font-weight: bold;
     letter-spacing: 1px;
 }
 .secondhalf .circle{
@@ -198,10 +193,12 @@
 .secondhalf .circle ul li{
     margin: 4px;
 }
+
 /* portfolio section  */
+
 .thirdsection{
     background-color: rgb(5, 121, 68);
-    height: fit-content;
+    height: 1020px;
 }
 .thirdfirst {
     text-align: center;
@@ -211,14 +208,14 @@
 }
 .decor{
     display: flex;
-    margin-left: 200px;
+    justify-content: center;
     text-align: center;
-    z-index: 50;
 }
 .one{
     border: 1px solid #101010;
     background: rgb(252, 252, 252);
-    width: 190px;
+    width: 220px;
+    height: 300px;
     margin: 40px ;
     position: relative;
     overflow: hidden;
@@ -228,7 +225,7 @@
     height: 100%;
 }
 .content1{
-    color: #fff;
+    color: #fdfbfb;
     background: rgb(0,0,0,0.8);
     position: absolute;
     top: 0%;
@@ -247,69 +244,59 @@
 .one:hover .content1{
     left: 0;
 }
-.two{
-    border: 1px solid #101010;
-    background: rgb(252, 252, 252);
-    width: 190px;
-    margin: 40px ;
-    position: relative;
-    overflow: hidden;
+.bttnn{
+    margin-top: 10px;
+    margin-left: 45%;
+    display: inline-block;
+    padding:9PX 30PX ;
+    background:#0c0c0c;
+    border: 2PX solid rgb(8, 8, 8);
+    border-radius: 50PX;
+    color: rgb(254, 253, 253);
+    text-decoration: none;
+    cursor: pointer;
 }
-.two img{
-    width: 100%;
-    height: 100%;
+.btntn:hover{
+    background:  rgb(253, 252, 252);
+    color: rgb(8, 8, 8);
 }
-.content2{
-    color: #fff;
-    background: rgb(0,0,0,0.8);
-    position: absolute;
-    top: 0%;
-    left: 100%;
-    width: 100%;
-    height: 100%;
-    padding: 20%;
-    box-sizing: border-box;
-    transition: all 0.5s;
+
+/* educationsection */
+
+.fifththsection{
+    background-color: #fdfcfcfb;
+    height: 530px;
 }
-.content2 p{
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    padding: 20px 0;
+.row1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
-.two:hover .content2{
-    left: 0;
+.row1 .col img{
+    margin: 0 50px;
+    padding-top: 20px;
+    width: 240px;
+    height: 260px;
+    transition: 0.5s;
 }
-.three{
-    border: 1px solid #101010;
-    background: rgb(252, 252, 252);
-    width: 190px;
-    margin: 40px ;
-    position: relative;
-    overflow: hidden;
+.row1 .col img:hover{
+    height: 290px;
 }
-.three img{
-    width: 100%;
-    height: 100%;
+.btttn{
+    margin-top: 20px;
+    margin-left: 9%;
+    display: inline-block;
+    padding:9PX 30PX ;
+    background:#0c0c0c;
+    border: 2PX solid rgb(8, 8, 8);
+    border-radius: 50PX;
+    color: rgb(254, 253, 253);
+    text-decoration: none;
+    cursor: pointer;
 }
-.content3{
-    color: #fff;
-    background: rgb(0,0,0,0.8);
-    position: absolute;
-    top: 0%;
-    left: 100%;
-    width: 100%;
-    height: 100%;
-    padding: 20%;
-    box-sizing: border-box;
-    transition: all 0.5s;
-}
-.content3 p{
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    padding: 20px 0;
-}
-.three:hover .content3{
-    left: 0;
+.btttn:hover{
+    background:  rgb(253, 252, 252);
+    color: rgb(8, 8, 8);
 }
 
 /*blog section */
@@ -326,12 +313,6 @@
     font-weight: bold;
     text-decoration: underline;
 }
-/* .final-dec{
-    display: flex;
-    margin-left: 10px;
-    text-align: center;
-    padding-bottom: 20px;
-} */
 .one1{
     border: 1px solid rgb(251, 250, 250);
     background: rgb(253, 252, 252);
@@ -445,50 +426,7 @@
     position: absolute;
     left: 0;
 }
-/* placesection */
-.fifththsection{
-    background-color: #fcfafa;
-    height: fit-content;
-    padding-bottom: 20px;
-}
-.title{
-    text-align: center;
-    color: rgb(10, 10, 10);
-    font-weight: bold;
-}
-.row{
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    height: fit-content;
-}
-.row .col img{
-    padding-top: 20px;
-    width: 240px;
-    height: 260px;
-    transition: 0.5s;
-}
-.row .col img:hover{
-    height: 290px;
-}
-.btttn{
-    margin-top: 20px;
-    margin-left: 9%;
-    display: inline-block;
-    padding:9PX 30PX ;
-    background:#0c0c0c;
-    border: 2PX solid rgb(8, 8, 8);
-    border-radius: 50PX;
-    color: rgb(254, 253, 253);
-    text-decoration: none;
-    cursor: pointer;
-}
-.btttn:hover{
-    background:  rgb(253, 252, 252);
-    color: rgb(8, 8, 8);
-}
+
 /* footersection */
 
 .bgrou{
