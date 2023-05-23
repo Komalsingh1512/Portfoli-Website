@@ -7,8 +7,8 @@
     <title>food</title>
 <style>
 .thirdsection{
-    background-color: #fff;
-    height: 500px;
+    background-color: #59075857;
+    height: 700px;
 }
 .row{
     display: flex;
@@ -17,7 +17,7 @@
     padding-top: 100px;
     color: black;
     font-weight: bold;
-    width: 50%;
+    width: 60%;
     font-size: 20px;
 }
 .thirdfirst h1{
@@ -29,6 +29,23 @@
     margin-left: 80px;
     margin-bottom: 40px;
 }
+.thirdfirst .circle{
+    display: flex;
+    color: #090909;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 80px;
+}
+.thirdfirst .circle ul li{
+    margin: 8px;
+}
+.thirdfirst .circle ul li:hover{
+    background-color: rgb(5, 5, 5);
+    color: rgb(255, 253, 253);
+    border-radius: 16px;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px rgb(252, 251, 251);
+    font-weight: bold;
+  }
 .bttn{
     margin-left: 160px;
     display: inline-block;
@@ -46,14 +63,15 @@
 }
 .image-gallery{
     display: flex;
-    padding-left: 300px;
+    padding-left: 200px;
     flex-wrap: wrap;
 }
 .image-gallery img{
     padding-top: 10px;
     transition: transform .3s ease;    /*not known */
-    width: 200px;
-    margin: 10px;
+    width: 340px;
+    height: 300px;
+    margin: 20px;
 }
 .image-gallery img:hover{
     transform: scale(1.1);
@@ -64,15 +82,23 @@
     <section id="food" class="thirdsection">
         <div class="row">
         <div class="thirdfirst">
-            <h1>Nepali Traditional Food</h1>
-            <h4> Nepalise Cuisine combines a range of ingredients, techniques and characteristics from its neighboring countrie,s with its own gastronomic history. Nepalese dishes are generally healthier than most other South Asian cuisine, relying less on using fats and more on chunky vegetables, lean meats, pickled ingredients and salads.</h4>
-            <div class="bttn"> Read More</div>
+            <h1>CERTIFICATES</h1>
+            <h4>These are the Certificates that i got by participating in different Hackthons and Workshopes.</h4>
+            <div class="circle">
+                <ul>
+                    <li>GCCP Participation certificate</li>
+                    <li>Vihaan Hackthon participation Certificate</li>
+                    <li>JavaScript Bottcamp Certificate by devTown</li>
+                    <li>Flutter Participation Certificate</li>
+                </ul>
+             </div>
+            <!-- <div class="bttn"> Read More</div> -->
         </div>
             <div class="image-gallery">
-                <img src="py.png">
-                <img src="py.png">
-                <img src="py.png">
-                <img src="py.png">
+                <img src="image1/htcer.jpg">
+                <img src="image1/cscer.jpg">
+                <img src="image1/jscer.jpg">
+                <img src="image1/flucer.jpg">
             </div>
         </div>
     </section>

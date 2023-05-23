@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food</title>
+<style>
+.thirdsection{
+    background-color: #055a5c62;
+    height: 700px;
+}
+.row{
+    display: flex;
+}
+.thirdfirst{
+    padding-top: 100px;
+    color: black;
+    font-weight: bold;
+    width: 60%;
+    font-size: 20px;
+}
+.thirdfirst h1{
+    margin-left: 80px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+.thirdfirst h4{
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
+.thirdfirst .circle{
+    display: flex;
+    color: #090909;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 80px;
+}
+.thirdfirst .circle ul li{
+    margin: 8px;
+}
+.thirdfirst .circle ul li:hover{
+    background-color: rgb(5, 5, 5);
+    color: rgb(255, 253, 253);
+    border-radius: 16px;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px rgb(252, 251, 251);
+    font-weight: bold;
+  }
+.bttn{
+    margin-left: 160px;
+    display: inline-block;
+    padding:9PX 30PX ;
+    background:#060606;
+    border: 2PX solid rgb(7, 7, 7);
+    border-radius: 50PX;
+    color: rgb(255, 254, 254);
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.bttn:hover{
+    background:  rgb(251, 250, 250);
+    color: rgb(10, 10, 10);
+}
+.image-gallery{
+    display: flex;
+    padding-left: 200px;
+    flex-wrap: wrap;
+}
+.image-gallery img{
+    padding-top: 10px;
+    transition: transform .3s ease;    /*not known */
+    width: 340px;
+    height: 300px;
+    margin: 20px;
+}
+.image-gallery img:hover{
+    transform: scale(1.1);
+}
+</style>
+</head>
+<body>
+    <section id="food" class="thirdsection">
+        <div class="row">
+        <div class="thirdfirst">
+            <h1>CERTIFICATES</h1>
+            <h4>These are the Certificates that i got by participating in different Hackthons and Workshopes.</h4>
+            <div class="circle">
+                <ul>
+                    <li>AI and BigData Workshop Participation certificate</li>
+                    <li>Appicorns Hackthon Winners Certificate</li>
+                    <li>Hackaversum Participation Certificate</li>
+                    <li>Manthan Hackthon Participation Certificate</li>
+                </ul>
+             </div>
+            <!-- <div class="bttn"> Read More</div> -->
+        </div>
+            <div class="image-gallery">
+                <img src="image2/aicer.jpg">
+                <img src="image2/uicer.jpg">
+                <img src="image2/pycer.jpg">
+                <img src="image2/fircer.jpg">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

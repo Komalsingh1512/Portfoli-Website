@@ -7,7 +7,7 @@ body, html{
     line-height: 1.8em;
     color: #666;
 }
-.first-block, .second-block, .third-block{
+.first-block, .second-block, .third-block, .fourth-block, .fifth-block, .sixth-block{
     position: relative;
     opacity: 0.80;
     background-position: center;
@@ -19,15 +19,27 @@ span{
     line-height: 4.5rem;
 }
 .first-block{
-    background-image: url(image/bg-image-1.jpg);
+    background-image: url(image/bg1.jpg);
     min-height: 100%;
 }
 .second-block{
-    background-image: url(image/bg-img-3-1.jpg);
+    background-image: url(image/bg2.jpg);
     min-height: 100%;
 }
 .third-block{
-    background-image: url(image/bg-img-2.webp);
+    background-image: url(image/bg3.jpg);
+    min-height: 100%;
+}
+.fourth-block{
+    background-image: url(image/bg4.jpg);
+    min-height: 100%;
+}
+.fifth-block{
+    background-image: url(image/bg5.jpg);
+    min-height: 100%;
+}
+.sixth-block{
+    background-image: url(image/bg6.jpg);
     min-height: 100%;
 }
 .section{
@@ -45,6 +57,14 @@ span{
 .intro-file-3{
     background-color: #0d0d0ea9;
     color: rgb(252, 252, 252);
+}
+.intro-file-4{
+    background-color: #123933a9;
+    color: rgb(252, 252, 252);
+}
+.intro-file-5{
+    background-color: #400d34a9;
+    color: rgb(11, 11, 11);
 }
 .sub-part{
     position: absolute;
