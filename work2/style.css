@@ -142,10 +142,3 @@ section::before
 .card{
     display: none;
 }
-/* @media(min-width:300px)
-{
-    .section
-    {
-        background-attachment: scroll;
-    }
-} */
