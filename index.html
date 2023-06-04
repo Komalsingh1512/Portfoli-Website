@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&family=Roboto+Slab:wght@200;400&display=swap');</style>
     <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </head>
     <nav class="navbar background">
         <ul class="nav-list">
@@ -23,8 +24,7 @@
             <li><a href="#blog">BLOG</a></li>
             <li><a href="#contact">CONTACT ME</a></li>
         </div>
-            <a href="#" class="rightNav">Download CV</a>
-            
+            <a href="resume" class="rightNav">Download CV</a>   
         </ul>
     </nav>
     <!-- home section -->
@@ -235,18 +235,23 @@
                 <form>
                    <h2>Send Message</h2>
                    <div class="inputbox">
-                    <input type="text" name="" required="required">
-                    <span>Full Name</span>
+                    <label for="username">Email:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your Email">
+                    <!-- <input type="text" id="username" name="username" required="required">
+                    <span>Email</span> -->
                    </div>
                    <div class="inputbox">
-                    <input type="text" name="" required="required">
-                    <span>Email</span>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your Password">
+                    <!-- <input type="password" id="password" name="password" required="required">
+                    <span>Password</span> -->
                    </div>
                    <div class="inputbox">
-                    <textarea required="required"></textarea>
-                    <span>Type your Message</span>
+                    <textarea required="required" placeholder="Type Your Message"></textarea>
+                    <!-- <span>Type your Message</span> -->
                    </div>
-                   <a href="#" class="btttn">Submit</a>
+                   <input type="button" value="Submit" class="btttn" onclick="validateForm()">
+                   <!-- <a href="#" class="btttn">Submit</a> -->
                 </form>
             </div>
         </div>

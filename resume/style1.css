@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body {
+        margin-top: 05rem;
+        background: linear-gradient(rgb(9, 62, 63), rgba(251, 249, 252, 0.642));
+        background-color: rgba(10, 60, 77, 0.689); 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .container { 
+        display: flex;
+        width: 610px; 
+        height: 650px;
+        margin: 10px auto;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .left {
+    width: 30%;
+    height: 100%;
+    background-color: rgba(0, 66, 88, 0.9);
+    color: white;
+     
+    }
+    /* .ppt input{
+        margin-top: 60%;
+        margin-left: 15%;
+        padding: 11px 16px;
+        color: black;
+        font-size: large;
+        font-weight: 100;
+        line-height: 20px;
+        background: white;
+        border-radius: 30px;
+        
+    }
+     */
+    .right {
+    width: 70%;
+    height: 100%;
+    }
+    
+    header {
+    font-family: "Ubuntu", sans-serif; 
+    background-color: #c7f9ffd9; 
+    padding: 20px 0px 20px 0px;
+    }
+    
+    #name {
+        margin: 30px 35px 5px 27px;
+        font-size: 40px;
+        font-weight: 300;
+    }
+    
+    #about {
+    margin: 5px 0px 0px 26px; 
+    font-weight: 100;
+    font-size: 20px;
+    }
+    
+    .title {
+    font-size: 14px; 
+    font-weight: 700;
+    padding: 5px 0px 5px 25px; 
+    margin: 10px 0px 0px 0px; 
+    background-color: #c7f9ffd9;
+    }
+    
+    .eduname { 
+        color: black;
+        font-size: 14px; 
+        font-weight: 700;
+    }
+     
+    ul li {
+    list-style: none;
+    }
+    
+    .content {
+    padding: 5px 0px 5px 30px; 
+    font-size: 12px;
+    color: rgb(119 119 119);
+    }
+    
+    .container2 { 
+        display: flex; 
+        flex-wrap: wrap;
+        padding-top: 8px;
+    }
+    
+    .item {
+    width: 199px;
+    margin: 0px 0px 5px 0px;
+    }
+    
+    #user {
+    width: 150px;
+    border: 2px solid white;
+    margin: 47px 16px 20px 16px;
+    }
+    
+    .info {
+    text-align: left;
+    }
+    
+    .info {
+    display: block;
+    text-decoration: none; 
+    color: white;
+    font-size: 12px;
+    font-weight:bold;
+    margin: 7px 5px 15px 18px;
+    }
+    

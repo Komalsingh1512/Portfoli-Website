@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="style1.css">
+    <title>Komal Resume</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+    
+</head>
+<body>
+    <div class="container" id="htmlContent">
+        <!-- First Section -->
+        <div class="left">
+            <img id="user"src="komal.jpg" alt=" Picture">
+            <div class="info-box">
+                <div class="info">
+                    <h3> Komal Singh</h3><br>
+                    <mob: +91 62019******>6201912023</mob:>
+                </div>
+                <a href="ks9615276@gmail.com" class="info"> ks9615276@gmail.com</a>
+                <div class="info">
+                    <p>jogbani, Araria, Bihar</p> 
+                    <!-- <div class="ppt">
+                            <input type="button" value="PDF" id="generatePDF">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Second Section -->
+        <div class="right">
+            <header>
+               <div id="name">Komal Singh</div>
+               <div id="about">Web Developer <hr>	</div>
+            </header>
+            <div class="title">
+                <h3>EDUCATION</h3>
+            </div>
+            <ul>
+            <li>
+                <hr>
+                <div class="content">
+                    <div class="eduname">Bachelor of Computer Applications (BCA)</div>
+                    <div class="educont">MMICT & BM - MCA, MMU Mullana <br> 2021 - 2024</div>
+                </div><hr>
+            </li>
+            <li>
+               <div class="content">
+                  <div class="eduname">Senior Secondary (XII), Medical</div>
+                  <div class="educont">Mithla Public School, Forbisganj<br> (CBSE board) <br> Year of completion: 2021 | Percentage: 80.2%</div>
+                </div><hr>
+            </li>
+            <li>
+               <div class="content">
+                   <div class="eduname">Secondary (X)</div>
+                   <div class="educont">Radhakrishna Saraswati Vidya Mandir, jogbani<br> (CBSE board)<br> Year of completion: 2019 | Percentage: 81.2%</div>
+                </div><hr>
+            </li>
+            </ul>
+            <div class="title">
+                <p>SKILLS</p>
+            </div>
+            <div class="container2 content">
+                <div class="item">
+                    <li>C / C++</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Flutter</li>
+                    <li>Public Speaker</li>
+                    <li>Culture Coordinator</li>
+                </div>
+            </div>
+            <div class="title">
+                <h3>LANGUAGE KNOWN</h3>
+            </div>
+            <div class="container2 content">
+                <div class="item">
+                    <li>HINDI</li>
+                    <li>BHOJPURI</li>
+                    <li>ENGLISH</li>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+
+let doc = new jsPDF('l','pt','dl');
+doc.addHTML(document.body,function() {
+    doc.save('resume.pdf');
+});
+
+</script>
+</html>
